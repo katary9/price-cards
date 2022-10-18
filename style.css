@@ -54,7 +54,7 @@
 }
 .price-card__order-btn {
   margin: 0 auto;
-  background: #5BB189;
+  background: #5bb189;
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -108,7 +108,7 @@ button {
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
 
