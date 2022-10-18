@@ -1,10 +1,12 @@
 .price-card {
         margin-top: 115px;
+        margin-bottom: 115px;
+        // padding-top: 33px;
+        // padding-bottom: 40px;
         width: 380px;
         height: 770px;
         background-color: $color-background-grey;
         margin-right: 18px;
-        
         display: flex;
         flex-direction: column;
         
@@ -18,7 +20,7 @@
         position: relative;
        } 
        &__title {
-        padding-top: 33px;
+      padding-top: 33px;
             font-weight: 700;
             font-size: $md-font-size;
             line-height: 43px;
@@ -53,12 +55,13 @@
                 padding-left: 26px;
                 margin: 40px 0 40px 0;
         }
-        &__table {
+        &__options-list {
             margin-bottom: 39px;
+            
         }
         &__order-btn {
             margin: 0 auto;
-            background: #5BB189;
+            // background: #5BB189;
             color: $text-color;
             font-weight: 400;
                 font-size: 14px;
@@ -87,6 +90,9 @@ td {
 }
 .orange {
     background-color: $color-orange;
+}
+.green {
+    background-color: $color-green;
 }
 .img-badge {
     position: absolute;

@@ -1,5 +1,6 @@
 .price-card {
   margin-top: 115px;
+  margin-bottom: 115px;
   width: 380px;
   height: 770px;
   background-color: #334247;
@@ -49,12 +50,11 @@
   padding-left: 26px;
   margin: 40px 0 40px 0;
 }
-.price-card__table {
+.price-card__options-list {
   margin-bottom: 39px;
 }
 .price-card__order-btn {
   margin: 0 auto;
-  background: #5bb189;
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -88,6 +88,10 @@ td {
   background-color: #ec632a;
 }
 
+.green {
+  background-color: #5bb189;
+}
+
 .img-badge {
   position: absolute;
   right: -19px;
@@ -108,8 +112,9 @@ button {
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  background-color: #141b1c;
 }
 
 .page {
@@ -118,7 +123,6 @@ html {
   margin: auto;
   display: flex;
   justify-content: center;
-  background-color: #141b1c;
   color: #ffffff;
   min-height: 100vh;
 }
