@@ -113,19 +113,19 @@ button {
   list-style-type: none;
 }
 
-html {
+body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   background-color: #141b1c;
 }
 
 .page {
-  padding-top: 115px;
   max-width: 1440px;
   width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #ffffff;
   min-height: 100vh;
 }
