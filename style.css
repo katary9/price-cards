@@ -80,6 +80,18 @@ ul > li:nth-child(odd) {
   height: 13px;
 }
 
+.green-icon {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+
+.blue-icon {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+
+.orange-icon {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
+
 .blue {
   background-color: #3a6ba5;
 }
@@ -94,10 +106,11 @@ ul > li:nth-child(odd) {
 
 .badge {
   position: absolute;
-  right: -22px;
-  top: 21px;
-  transform: rotate(35deg);
+  right: -30px;
+  top: 30px;
+  transform: rotate(45deg);
   background-color: #DC3F45;
+  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   display: flex;
