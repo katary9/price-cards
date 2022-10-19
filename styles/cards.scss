@@ -68,24 +68,38 @@
                 line-height: 17px;
         }
 }
-tbody>tr:nth-child(odd) {
-    background-color: #2a3438;
-}
-tr {
+li {
+    display: flex;
+    align-items: center;
     height: 50px;
-}
-
-td {
     font-weight: 300;
     font-size: $base-font-size;
     line-height: 18px;
+    
 }
+ul>li:nth-child(odd) {
+    background-color: #2a3438;
+}
+// tbody>tr:nth-child(odd) {
+//     background-color: #2a3438;
+// }
+// tr {
+//     height: 50px;
+    
+// }
+
+// td {
+//     font-weight: 300;
+//     font-size: $base-font-size;
+//     line-height: 18px;
+// }
 
 .icon {
     margin-left: 22px;
     margin-right: 22px;
     width: 15px;
     height: 13px;
+    
 }
 .blue {
     background-color: $color-blue;
@@ -100,4 +114,5 @@ td {
     position: absolute;
     right: -19px;
     top: -19px;
+    
 }
