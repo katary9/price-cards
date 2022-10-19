@@ -1,6 +1,4 @@
 .price-card {
-  margin-top: 115px;
-  margin-bottom: 115px;
   width: 380px;
   height: 770px;
   background-color: #334247;
@@ -122,6 +120,7 @@ html {
 }
 
 .page {
+  padding-top: 115px;
   max-width: 1440px;
   width: 100%;
   margin: auto;
