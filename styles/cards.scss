@@ -18,6 +18,7 @@
         flex-direction: column;
         align-items: center;
         position: relative;
+        overflow: hidden;
        } 
        &__title {
       padding-top: 33px;
@@ -110,9 +111,20 @@ ul>li:nth-child(odd) {
 .green {
     background-color: $color-green;
 }
-.img-badge {
+.badge {
     position: absolute;
-    right: -19px;
-    top: -19px;
-    
+    right: -22px;
+    top: 21px;
+    transform: rotate(35deg);
+     background-color: $color-red;
+    font-size: $sm-font-size;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 25px;
+   width: 147px;
+ 
+//   border: 50px solid transparent;
+//   border-top-color: brown;
 }

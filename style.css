@@ -14,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .price-card__title {
   padding-top: 33px;
@@ -91,10 +92,19 @@ ul > li:nth-child(odd) {
   background-color: #5bb189;
 }
 
-.img-badge {
+.badge {
   position: absolute;
-  right: -19px;
-  top: -19px;
+  right: -22px;
+  top: 21px;
+  transform: rotate(35deg);
+  background-color: #DC3F45;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 147px;
 }
 
 button {
